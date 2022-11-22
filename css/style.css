@@ -1,0 +1,12 @@
+/*estilo usando elementos html*/
+h1{
+    /*Propiedades*/
+    text-align: center;
+}
+.fuente-especial{
+    color: blue;
+}
+/*selectores de clase atados a un elemento*/
+p.fuente-especial{
+    color:brown;
+}
