@@ -1,16 +1,18 @@
 .box-1{
     margin:0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);s
 }
 /* cinzel-regular - latin */
 .box-1{
+    text-align: center;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     padding-top: 10%;
 
 }
+
 .fuente-g{
     font-family: 'Cinzel';
     font-style: normal;
