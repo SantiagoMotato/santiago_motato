@@ -1,3 +1,7 @@
-.fuente-g{
+.box-1{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
 }
