@@ -1,0 +1,16 @@
+*{
+    background-color: blue;
+}
+.box-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.fuente-d {
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 300px;
+ }

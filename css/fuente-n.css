@@ -1,0 +1,25 @@
+body{
+    background-image: url("../Fonts/619306-bg-full-netflix-grid-v2.desktop.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.box-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fuente-n{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    color: red;
+    font-size: 300px;
+}
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../Fonts/BebasNeue-Regular.ttf");
+  }
