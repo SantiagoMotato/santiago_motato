@@ -1,6 +1,10 @@
-*{
-    background-color: blue;
+body{
+    background-image: url("../Fonts/72576f558504e45b61ff3e9912c921a7.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
+
 .box-1{
     display: flex;
     text-align: center;
@@ -11,6 +15,6 @@
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
-    color: aliceblue;
-    font-size: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 400px;
  }
