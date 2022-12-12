@@ -1,23 +1,137 @@
+body{
+    background-color: rgb(255, 255, 238);
+}
+
+.cajas-bordes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .box-1{
-    height: 200px;
+    display: flex;
+    border: 6px solid rgb(214, 211, 211);
+    background-color: rgb(190, 166, 166);
+    height: 300px;
     width: 200px;
-    background-color: aqua;
-    border: 2px solid rgb(0, 0, 0)
-    
-    
+    align-items: center;
+    margin-right: 10px;
 }
-.parr-style {
-    font-size: 2.5em;
-    margin: 100px;
-    text-align: justify;
-    border-bottom: 1px solid rgb(64, 64, 64,.7)
-}
-.parr-padding{
-    padding: 50px;
-}
+
 .box-2{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: brown;
+    display: flex;
+    border: 6px dotted rgb(255, 84, 84);
+    background-color: rgb(222, 181, 132);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-3{
+    display: flex;
+    border: 6px dashed rgb(168, 166, 166);
+    background-color: rgb(69, 164, 167);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-4{
+    display: flex;
+    border: 6px double rgb(0, 0, 0);
+    background-color: #f663dd;
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-5{
+    display: flex;
+    border: 6px groove rgb(250, 1, 1);
+    background-color: rgb(246, 188, 71);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.solid{
+    font-size: 20px;
+    padding: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.dotted{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.dashed{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.double{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.groove{
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+.p1{
+    padding: 50px;
+    font-size: 30px;
+    text-align: left;
+    border: 5px ridge rgb(0, 0, 0);
+    margin: 20px;
+}
+
+.p2{
+    font-size: 30px;
+    text-align: center;
+    border: 5px inset rgb(116, 211, 7);
+    margin: 0;
+}
+.p3{
+    padding: 30px;
+    font-size: 30px;
+    text-align: right;
+    border: 5px outset white;
+    margin: 25px;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: rgb(8, 164, 112);
+    border: 8px dotted rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.pcircle{
+    color: rgb(228, 221, 221);
+    font-size: 40px;
 }
