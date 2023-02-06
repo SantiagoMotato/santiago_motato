@@ -1,15 +1,61 @@
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    width: 33%;
+    display: inline-block
+}    
+h1{
+    text-align: center;
+}
 .box-1{
     width: 600px;
     height: 400px;
+    text-align: center;
 }
 .ferrari{
     width: 100%;
 }
+
 .box-2{
     width: 600px;
     height: 400px;
+    text-align: center;
 }
+.nissan{
+    width: 100%;
+}
+
 .box-3{
     width: 600px;
     height: 400px;
+    text-align: center;
+}
+.pagani{
+    width: 100%;
+}
+
+.box-4{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.jesko{
+    width: 100%;
+}
+
+.box-5{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.mclaren{
+    width: 100%;
+}
+
+.box-6{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.toyota{
+    width: 100%;
 }
