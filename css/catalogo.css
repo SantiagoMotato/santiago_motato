@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://images.unsplash.com/photo-1421218108559-eb1ff78357f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RyZWV0JTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-image: url("https://images.pexels.com/photos/371578/pexels-photo-371578.jpeg?cs=srgb&dl=pexels-pixabay-371578.jpg&fm=jpg");
     background-size:cover;
     margin: 0;
     padding: 0;
@@ -16,29 +16,38 @@ body{
 }
 h1{
     text-align: center;
+    color: aliceblue;
 }
 .box-1{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 .box-2{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 .box-3{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 .box-4{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 
@@ -46,12 +55,16 @@ h1{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 .box-6{
     width: 600px;
     height: 600px;
     text-align: center;
+    font-size:large;
+    color: aliceblue;
 }
 
 
