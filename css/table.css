@@ -1,0 +1,19 @@
+td, th {
+    border: solid 1px rgb(248, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.logo-1{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+.logo-2{
+    border-top: none;
+}
