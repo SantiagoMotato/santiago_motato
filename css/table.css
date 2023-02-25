@@ -1,19 +1,37 @@
-td, th {
-    border: solid 1px rgb(248, 0, 0);
+h1{
+    color: brown;
 }
 
-table {
+table{
     border-collapse: collapse;
+}
+
+th{
+    padding: 2px;
+}
+
+td{
+    padding: 2px;
     text-align: center;
+    border-right: 1px dashed rgb(97, 181, 214);
 }
-h2{
-    text-align: center;
+
+.ut{
+    border-top: 1px solid black ;
 }
-.logo-1{
-    border-bottom: none;
-    border-top: none;
-    border-left: none;
+
+.ub{
+    border-bottom: 1px solid black ;
 }
-.logo-2{
-    border-top: none;
+
+.image{
+    height: 20px;
+    width: 100px;
+    padding: 1px;
 }
+
+img{
+    width: 100%;
+}
+
+
