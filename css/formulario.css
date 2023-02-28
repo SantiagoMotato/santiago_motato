@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 16);
+    font-size: 1,3em;
+    background-color: rgb(154, 221, 255);
+}
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    background-color: rgb(1, 105, 170);
+    color: aliceblue;
+    height: 60px;
+}
+.legend-text {
+    padding: 1px;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+label{
+    display: inline-block;
+    color: rgb(48, 48, 48, .9);
+    margin-top: 20px;
+}
+label, input, textarea, select{
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+textarea{
+    resize: none;
+}
+.texto-genero{
+    color: rgb(48, 48, 48, .9);
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 500px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 26px;
+    border: none;
+}
+input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid  rgb(48, 48, 48, .9);
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-style {
+    padding: 10px;
+    border-radius: 4px;
+    color:  rgb(48, 48, 48, .9);
+    cursor: pointer;
+}
+.select-style:focus{
+    outline: none;
+}
+select option{
+    padding: 20px;
+    margin: 20PX;
+}

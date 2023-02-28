@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Citas Médicas</h1>
+ <div class="form-box">
+    <form>
+        <legend><span class="legend-text">Reserva de vuelos</legend></span>
+        <label>Ingrese numero de documento</label><br>
+        <input type="text" name="numeroDocumento"><br>
+        <label>Ingrese el primer nombre</label><br>
+        <input type="text" name="primerNombre"><br>
+        <label>Ingrese el segundo nombre</label><br>
+        <input type="text" name="segundoNombre"><br>
+        <label>Ingrese primer apellido</label><br>
+        <input type="text" name="primerapellido"><br>
+        <label>Ingrese segundo apellido</label><br>
+        <input type="text" name="segundoApellido"><br>
+        <label for="">Desea hacerle alguna consulta especial a la aerolinia?</label>
+        <textarea name="" id="" cols="40" rows="6"></textarea> <br>
+        <label for="">Ingresel el genero</label> <br>
+        <input type="radio" name="genero" value="masculino"><span class="texto-opcion">Masculino</span> <br>
+        <input type="radio" name="genero" value="masculino"><span class="texto-opcion">Femenino</span> <br>
+        <input type="radio" name="genero" value="masculino"><span class="texto-opcion">Indeterminado</span> <br>
+        <label>Seleccione la(s) aerolinias con la(s) cual le gustaria viajar</label> <br>
+        <input type="checkbox" name="aerolinia" id=""><span class="texto-opcion">Avianca</span> <br>
+        <input type="checkbox" name="aerolinia" id=""><span class="texto-opcion">Viva Air</span> <br>
+        <input type="checkbox" name="aerolinia" id=""><span class="texto-opcion">Latam</span> <br>
+        <input type="checkbox" name="aerolinia" id=""><span class="texto-opcion">Ultra Air</span> <br>
+        <input type="checkbox" name="aerolinia" id=""><span class="texto-opcion">Airline</span> <br>
+        <select class="select-style" name="destino">
+            <option value="sanAdres">San Andres</option>
+            <option value="cartagena">Cartagena</option>
+            <option value="santamarta">Santa Marta</option>
+            <option value="medellin">Medellin</option>
+            <option value="cali">Cali</option>
+        </select>
+        <div class="btn-enviar">
+           <input type="submit" value="enviar">
+        </div>
+    </form>
+</div>
+</body>
+</html>
