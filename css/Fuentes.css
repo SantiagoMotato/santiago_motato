@@ -1,6 +1,12 @@
-.courier-font{
-    font-family: 'Courier New', Courier, monospace;
+body{
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/3/2020/10/halloween_movie_michael_myers-f656e3c.jpg?quality=90&resize=620,414);
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: 100%;
+    margin: 20%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
-.indie-font{
-    font-family: 'Indie Flower', cursive;
+ol{
+    font-size: 45px;
 }

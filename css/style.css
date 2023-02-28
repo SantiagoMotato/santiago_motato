@@ -1,11 +1,28 @@
 h1{
-   
-    text-align: center;
-}
-.fuente-especial{
-    color: blue;
+    text-align:left;
+    padding-right: 700px;
+    font-family: 'Tilt Prism', cursive;
 }
 
-p.fuente-especial{
-    color:brown;
+.p-1{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    padding-right: 700px;
+    font-family: 'Press Start 2P', cursive;
+}   
+p{
+    font-size: 20px;
+}
+.links{
+    font-size: 20px;
+}
+body{
+    margin: 10%;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1268703.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden; 
 }
