@@ -1,5 +1,12 @@
+body{
+    background-image: url(https://bolavip.com/__export/1576763513670/sites/bolavip/img/2019/12/19/memessaltocristiano_crop1576763513017.jpg_1055622710.jpg);
+}
 h1{
     text-align: center;
+    color: rgb(66, 52, 52);
+    font-size: 100px;
+    border-style: double;
+    font-family:fantasy;
 }
 
 form{

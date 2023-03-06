@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Press+Start+2P&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>Formulario 2</title>
+</head>
+<body>
+
+<header>
+    <h1>Reservación de Autos</h1>
+
+    <div class="caja">
+
+
+        <form class="form-1" action="enviar-correo" method="Nombre">
+
+            <label>Ingrese el nombre del vehiculo</label><br>
+            <input class="input-1" type="text" name="Nombre" size="15"  maxlength="30"><br>
+            <label>Ingrese su el modelo que quiere</label><br>
+            <input class="input-s"type="text" name="pass" size="15" maxlength="30"><br><br>
+       
+            <textarea name="Mensaje" rows="4" cols="30" maxlength="200"></textarea>
+            <br>
+
+            <div class="input-2">
+            <input type="radio" name="genero" value="America" checked="checked">America<br>
+            <input type="radio" name="genero" value="Europa" checked="checked">Europa<br>
+            <input type="radio" name="genero" value="Asia" checked="checked">Asia<br>
+            </div>
+
+            <br>
+            <div class="input-3">
+            <input type="checkbox" name="tipo-bici" value="particular">Particular<br>
+            <input type="checkbox" name="tipo-bici" value="camioneta">Camioneta<br>
+            <input type="checkbox" name="tipo-bici" value="gama media">Gama media<br>
+            <input type="checkbox" name="tipo-bici" value="deportivo">Deportivo<br>
+            </div>      
+            <br>
+            <label>Elija el color en el que desea consultar el auto:</label><br>
+            <select name="color">
+                <option class="opcion-1" value="Rojo">Rojo</option><br>
+                <option value="Amarillo">Amarillo</option><br>
+                <option value="Azul">Azul</option><br>
+                <option value="Blanco">Blanco</option><br>
+                <option value="Nigga">Nigga</option><br>
+            </select><br>
+            <br>
+            <form class="form-2" action="confirmacion.html" method="get">
+                <fieldset>
+                    <legend>Ingrese la siguiente informacion:</legend><br>
+                    Por favor, ingrese sus nombres<br>
+                    <input type="text" name="nombres"><br><br>
+                    Por favor, ingrese sus apellidos<br>
+                    <input type="text" name="apellidos"><br><br>
+                    Por favor, ingrese su número de ID<br>
+                    <input type="text" name="identificacion"><br><br>
+                    </fieldset>
+
+                <div class="enviar-btn">
+                    <input type="submit" value="Enviar">
+                </div> 
+            </form>
+        </form>
+    </div>
+
+    <video muted autoplay loop>
+        <source src="/santiago_motato/video/FerrariOfficial Video_1080p.mp4"  type="video/mp4">
+    </video>
+    <div class="capa"></div>
+</header>
+</body>
+</html>
