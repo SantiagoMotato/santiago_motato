@@ -1,0 +1,105 @@
+body{
+    background-position-x: 180px;
+    background-size: cover;
+    background-image: url(https://wallpapercave.com/wp/wp7702714.jpg);
+    padding-left: 400px;
+}
+
+
+nav{
+    background-size: cover;
+    background-image: url(https://s.hdnux.com/photos/61/05/16/12866438/5/1200x0.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 100vh;
+    opacity: 0.9;
+}
+h1{
+    font-size: 80px;
+    font-family: "tesla";
+    text-align: center;
+    margin: 35px;
+}
+h2{
+    font-size: 40px;
+    font-family: "tesla";
+    text-align: center;
+}
+
+
+.c-btn{
+    position: absolute;
+    bottom: 20px;
+    left: 700px
+ }
+
+ .order-btn{
+    background-color: rgb(29, 27, 27);
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    font-weight:900;
+    padding: 15px;
+    transition: 0.5s;
+ }
+.order-btn:hover{
+    background-color: rgb(202, 29, 29);
+    color: black;
+    transform: scale(1.1);
+}
+ .drive-btn{
+    margin-left: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-weight:900;
+    transition: 0.5s;
+ }
+ .drive-btn:hover{
+    background-color: rgb(223, 67, 67);
+    color: aliceblue;
+    transform: scale(1.1);
+ }
+
+
+
+.shop{
+    text-align:end
+}
+.solar{
+    text-align:end
+}
+li{
+    font-family: "robot";
+    font-weight:900;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+li:hover{
+    color: rgb(152, 175, 182);
+    transform: scale(1.50);
+    transition: all 0.5s;
+}
+
+
+i{
+    padding-right: 15px;
+    color: whitesmoke;
+}
+
+
+ @font-face{
+    font-family: "tesla";
+    src: url(/santiago_motato/Fonts/TESLA.ttf);
+ }
+ @font-face{
+    font-family: "robot";
+    src: url(/santiago_motato/Fonts/Moonhouse-yE5M.ttf);
+}
+
+menu{
+    padding-top: 250px;
+}
