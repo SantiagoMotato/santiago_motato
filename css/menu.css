@@ -1,0 +1,23 @@
+.nav-bar-horizontal{
+    color: rgb(226, 28, 28);
+}
+
+.nav-horizontal{
+    margin: 0;
+    background: white;
+    float: left;
+    padding: 8px 10px;
+    border-right: 1px solid red;
+    color: rgb(0, 0, 0);
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.nav-horizontal:hover{
+    background: rgb(220, 220, 220);
+}
+
+
+
+
