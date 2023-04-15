@@ -5,7 +5,7 @@ menuHamburguer.addEventListener("click", function() {
         if(mainMenu.classList.contains("menu-media-hidden")){
         mainMenu.classList.add("menu-media-visible");
         mainMenu.classList.remove("menu-media-hidden");
-        }
+        }else(mainMenu.classList.add("menu-media-hidden"))
 });
 
 /* menuHamburguer.addEventListener("click", function() {
