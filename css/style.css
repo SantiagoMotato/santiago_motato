@@ -1,27 +1,54 @@
-h1{
-    text-align:left;
-    padding-right: 700px;
-    font-family: 'Tilt Prism', cursive;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.p-1{
-    color:rgb(0, 0, 0);
+.bar-menu{
+    height: 100vh;
+    display: flex;
+}
+.info{
+    width: 340px;
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.3)),  url(https://th.bing.com/th/id/R.bc982fe1fb8b5caae0d98fc6fddccf8a?rik=N14JBWuBYFcBwg&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    margin: auto;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+span{
     font-size: 30px;
-    padding-right: 700px;
-    font-family: 'Press Start 2P', cursive;
-}   
+}
 p{
     font-size: 20px;
 }
-.links{
-    font-size: 20px;
+li a{
+    background-color: rgba(0,0,0,.7);
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
 }
-body{
-    margin: 10%;
-    padding: 0;
-    background-image: url(https://wallpaperaccess.com/full/1268703.jpg);
+nav ul li{
+    margin-top: 15px;
+}
+.front-page{
+    background-image:linear-gradient(
+        rgba(0,0,0,.9),
+        rgba(0,0,0,.3)),  url( https://th.bing.com/th/id/R.f3aed01395dee8a6025288d69a13a917?rik=pzHOkDW7b8Nuqw&pid=ImgRaw&r=0);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow-x: hidden; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
