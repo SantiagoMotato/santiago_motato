@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-principal{
+    background-image: url(/santiago_motato/img/pagani-trees.jpg);
+    background-position: center;
+    background-size: cover;
+    width:  100%;
+    height: 100vh;
+    z-index: 5;
+    position: fixed;
+    opacity: 0.9;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    margin-top: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: rgba(14, 13, 13, 0.7);
+    border-radius: 15px;
+    width: 380px;
+    height: 500px;
+}
+.user-i-box{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(48, 48, 48, .9);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+    right: -115px;
+}
+.user-i-style{
+    margin: auto;
+    color: aliceblue;
+    font-size: 130px;
+}
+h1{
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    position: relative;
+    top: -60px;
+}
+.icon-user1{
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    bottom: -8px;
+    right: 3px;
+}
+.icon-user2{
+    font-size: 30px;
+    margin-left: 20px;
+    padding-right: 0px;
+    position: relative;
+    bottom: -7px;
+    right: -5px;
+}
+input[type="text"]{
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 1.5em;
+    border-bottom: 3px solid snow;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.input{
+    background-color: rgb(162, 162, 189);
+    width: 80%;
+    height: 5%;
+}
+.input-box{
+    margin-top: 5px;
+}
+.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    text-decoration:underline;
+}
+.sesion-btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 48, .9);
+    color: snow;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    width: 330px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
