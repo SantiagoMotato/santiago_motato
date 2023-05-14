@@ -1,0 +1,110 @@
+.box-flex-1{
+    width: 120px;
+    height: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#81060e, #ff8c38);
+}
+.box-flex-1::after{
+    content: '';
+    width: 120px;
+    height: 16px;
+    background: linear-gradient(#81060e, #ff8c38);
+    position: relative;
+    top: -16px;
+    left: -8px;
+    transform: skewX(45deg);
+}
+.box-flex-1::before{
+    content: '';
+    width: 15px;
+    height: 100%;
+    background: linear-gradient(#81060e, #ff8c38);
+    position: relative;
+    left: -16px;
+    top:-8px;
+    bottom: 5px;
+    transform: skewY(45deg);
+}
+
+.box-flex-2{
+    width: 130px;
+    height: 330px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#9c282f, #ff8c38);
+    margin-left: 20px;
+}
+.box-flex-3{
+    width: 130px;
+    height: 360px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#9e5055, #ff8c38);
+    margin-left: 20px;
+}
+.box-flex-4{
+    width: 130px;
+    height: 390px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#b37478, #ff8c38);   
+    margin-left: 20px;
+}
+.box-flex-5{
+    width: 130px;
+    height: 420px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#8f7476, #ff8c38);   
+    margin-left: 20px;
+}
+.box-flex-6{
+    width: 130px;
+    height: 450px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#7580a5, #ff8c38);   
+    margin-left: 20px;
+}
+.box-flex-7{
+    width: 130px;
+    height: 480px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#898fa7, #ff8c38);   
+    margin-left: 20px;
+}
+.box-flex-8{
+    width: 130px;
+    height: 510px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(#bfc3ce, #ff8c38);   
+    margin-left: 20px;
+}
+.box-1{
+    display: flex;
+    height: 900px;
+    background-color: rgb(250, 240, 240);
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+    border: 2px solid #81060e;
+}
