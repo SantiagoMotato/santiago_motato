@@ -1,0 +1,9 @@
+.main-container{
+    height: 600px;
+    width: 300px;
+}
+img{
+    mix-blend-mode:color-dodge;
+    height: 600px;
+    width: 300px;
+}
