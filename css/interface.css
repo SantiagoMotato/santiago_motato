@@ -208,6 +208,7 @@ span{
     border: 3px solid black;
     grid-gap: 250px;
     grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
 }
 .style-box{
     background-color: rgba(170, 167, 167, 0.459);
