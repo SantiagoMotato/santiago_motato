@@ -3,63 +3,88 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    background: linear-gradient(25deg, white, black, grey, white);
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    font-size: 65px;
+    font-family: "pagani";
+    border-bottom: 5px wheat solid;
+}
+@font-face{
+    font-family: "pagani";
+    src: url(/santiago_motato/Fonts/arkitech-medium.ttf);
+}
 nav{
     height: 80px;
 } 
 .main-img-box{
     width: 100%;
-    height: 500px;
-    background-color: darkcyan;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 2.2em;
     font-weight: 900;
+    border-radius: 25px;
+}
+.main-img-pagani{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .article-box{
     width: 100%;
     display: grid;
-    margin-top: 50px;
+    margin-top: 200px;
     gap: 20px;
-    grid-template: "empty-izq article-1 article-2 article-3 empty-der" 850px 
-                    "empty-izq article-4 article-5 article-6 empty-der" 850px /
+    grid-template: "empty-izq article-1 article-2 article-3 empty-der" 750px 
+                    "empty-izq article-4 article-5 article-6 empty-der" 750px /
                     1fr        450px     450px      450px      1fr;
 }
 .article-1{
     grid-area: article-1;
-    background-color: dodgerblue;
+    
 }
 .article-2{
     grid-area: article-2;
-    background-color: dodgerblue;
 }
 .article-3{
     grid-area: article-3;
-    background-color: dodgerblue;
 }
 .article-4{
     grid-area: article-4;
-    background-color: dodgerblue;
 }
 .article-5{
     grid-area: article-5;
-    background-color: dodgerblue;
 }
 .article-6{
     grid-area: article-6;
-    background-color: dodgerblue;
 }
 .img-article{
     background-color: darkblue;
     width: 100%;
-    height: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
 }
 .text-content{
     color: black;
     font-size: 1.2em;
     line-height: 1.6em;
     text-align: justify;
+    background-color: rgb(225, 227, 229); 
+    border-radius: 25px;  
+    padding: 5px;
 }
 
 @media only screen and (max-width: 900px){
@@ -74,5 +99,6 @@ nav{
         "empty-izq article-4 empty-der" 
         "empty-izq article-5 empty-der" 
         "empty-izq article-6 empty-der";
+        gap: 20px;
     }
 }
