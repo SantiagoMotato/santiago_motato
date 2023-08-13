@@ -12,6 +12,7 @@
     background-image:linear-gradient(
         rgba(0,0,0,.5),
         rgba(0,0,0,.3)),  url(https://th.bing.com/th/id/R.bc982fe1fb8b5caae0d98fc6fddccf8a?rik=N14JBWuBYFcBwg&pid=ImgRaw&r=0);
+        /* url(https://th.bing.com/th/id/R.bc982fe1fb8b5caae0d98fc6fddccf8a?rik=N14JBWuBYFcBwg&pid=ImgRaw&r=0); */
     background-size: cover;
     background-position: center;
     display: flex;
