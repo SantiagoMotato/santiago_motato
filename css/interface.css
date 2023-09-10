@@ -4,18 +4,27 @@
 }
 body{
     /* background-image: url(https://wallpapercrafter.com/desktop/225845-office-computer-laptop-and-desk-hd.jpg); */
+    /* background-image:linear-gradient(
+        rgba(0,0,0,.8),
+        rgba(0,0,0,.4)), url(../img/irom_man_1366x768.jpg); */
     background-image:linear-gradient(
         rgba(0,0,0,.8),
-        rgba(0,0,0,.4)), url(../img/irom_man.jpg);
-    background-size: cover;
-    background-position: center center;
+        rgba(0,0,0,.4)), url(https://e0.pxfuel.com/wallpapers/768/736/desktop-wallpaper-iron-iron-man-portrait-background-iron-man-ultra.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+   /*  background-image:linear-gradient(
+        rgba(0,0,0,.8),
+        rgba(0,0,0,.4)), url(https://w0.peakpx.com/wallpaper/166/563/HD-wallpaper-coding-coffee-cup.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
+    overflow-y: hidden; */
 }
 nav{
     display: flex;
-    background-color:  rgb(136, 136, 136);
+    background-color:  rgba(136, 136, 136,.3);
     width: 100%;
-    height: 90px;
+    height: 60px;
     justify-content: center;
 }
 .image-icon{
@@ -35,7 +44,7 @@ nav ul li a{
     font-size: 25px;
     font-weight: 400;
     margin-right: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 10px 10px;
     color: whitesmoke;
     transition: 1.1s;
@@ -47,7 +56,7 @@ nav ul li a:hover{
     font-size: 25px;
     font-weight: 400;
     margin-right: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 10px 10px;
     color: rgb(134, 0, 0);
     transform: scale(0.9);
@@ -57,42 +66,49 @@ nav ul li a:hover{
     display: flex;
     justify-content:flex-start;
     margin-left: 20%;
+    margin-top: 0%;
+    position: relative
 }
 
 .info{
     display: inline-block;
     background-color: rgba(218, 218, 218, 0.4);
-    margin-left: 50px;
-    margin-top: 100px;
-    height: 600px;
+    position: relative;
+    left: -235px;
+    margin-left: 0px;
+    margin-top: 50px;
+    height: 520px;
     width: 680px;
     border-radius: 50px;
 }
 h1{
     margin: 30px;
-    font-size: 55px;
+    font-size: 45px;
     font-family: sans-serif;
 }
 p{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 45px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
     font-family: sans-serif;
 }
-.text-icon{
+.profile-description{
+    font-size: 17px;
+}
+.text-barColor{
     background-color: rgba(100, 34, 144, 0.6);
-    height: 45px;
+    height: 80px;
     width: 100%;
 }
-.text-p-icon{
+/* .text-p-icon{
     display: flex;
     position: relative;
     top: -42px;
     right: -480px;
     height: 50px;
     width: 50px;
-}
+} */
 span{
     color: rgb(121, 0, 0);
     font-weight: 900;
@@ -158,14 +174,14 @@ span{
     align-items: center;
     background-color: rgb(238, 238, 238,);
     /* box-shadow: 8px 20px 0px 20px black; */
-    box-shadow:  0 0 100px  rgb(205, 178, 178);
+    box-shadow:  0 0 28px  rgb(205, 178, 178);
     width: 300px;
     height: 300px;
     margin-left: 40px;
     position: relative;
     border-radius: 50%;
-    top: -550px;
-    left: 720px;
+    top: -450px;
+    left: 700px;
 }
 .profile-pic-programmer{
     width: 300px;
@@ -176,8 +192,8 @@ span{
 .button-container{
     display: inline-block;
     position: relative;
-    top: -500px;
-    left: 780px;
+    top: -410px;
+    left: 760px;
 }
 .work-btn{
     font-family: sans-serif;
@@ -197,15 +213,10 @@ span{
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
     border: none;
-    background-color: rgba(0, 0, 0, 0.788);
+    background-color: rgba(58, 58, 58, 0.788);
     color: rgba(238, 238, 238);
-    transform: scale(0.9);
     transition: 1.1s;
 }
-
-
-
-/* Works Divs */
 
 .container-box{
     display: grid;

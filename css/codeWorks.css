@@ -5,9 +5,32 @@
 body{
     background-image: url(https://th.bing.com/th/id/R.f27b21ff93d87b50ffa0e0209d03c428?rik=3a9u1JAYbUve%2fA&pid=ImgRaw&r=0);
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat
 }
+.header-section{
+    background-image: url(https://th.bing.com/th/id/R.f27b21ff93d87b50ffa0e0209d03c428?rik=3a9u1JAYbUve%2fA&pid=ImgRaw&r=0);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat
+}
+.content-section{ 
+    background-image: url(https://cdn.carbuzz.com/gallery-images/2016-ferrari-laferrari-front-view-carbuzz-917011-1600.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat
+}
+h1 {
+    background-image: url('fondo3.jpg'); /* Ruta de la tercera imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; /* Cambia el color del texto para que sea legible en el fondo */
+}
+
+
+
+
+
 .container-box{
     display: grid;
     width: 100%;
