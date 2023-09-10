@@ -1,52 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
+
+/* body{
     background-image: url(https://th.bing.com/th/id/R.f27b21ff93d87b50ffa0e0209d03c428?rik=3a9u1JAYbUve%2fA&pid=ImgRaw&r=0);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat
 }
 .header-section{
     background-image: url(https://th.bing.com/th/id/R.f27b21ff93d87b50ffa0e0209d03c428?rik=3a9u1JAYbUve%2fA&pid=ImgRaw&r=0);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat
 }
 .content-section{ 
     background-image: url(https://cdn.carbuzz.com/gallery-images/2016-ferrari-laferrari-front-view-carbuzz-917011-1600.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat
 }
 h1 {
-    background-image: url('fondo3.jpg'); /* Ruta de la tercera imagen de fondo */
+    background-image: url('fondo3.jpg'); Ruta de la tercera imagen de fondo
     background-repeat: no-repeat;
     background-size: cover;
-    color: white; /* Cambia el color del texto para que sea legible en el fondo */
+    color: white; Cambia el color del texto para que sea legible en el fondo
 }
+ */
+
+
+ body, html{
+    height: 100%;
+    margin: 0;
+ }
+ *{
+    box-sizing: border-box;
+}
+
+.background-images{
+    position: relative;
+    top: -50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bg-image{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(1px);
+    backdrop-filter: blur(5px);
+}
+.img1{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://wallpaper.dog/large/5567291.jpg);
+
+    z-index: -2;
+}
+.img2{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://wallup.net/wp-content/uploads/2016/01/2257-car-motion_blur-Koenigsegg_Agera_R-Koenigsegg-red_cars.jpg);
+    z-index: -2;
+}
+.img3{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://th.bing.com/th/id/R.dd781e62e67f1ef9b82f0a41fb7d129a?rik=P8kB7qcW3%2f0zgA&pid=ImgRaw&r=0);
+    z-index: -2;
+}
+.img4{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://c.wallhere.com/photos/36/3a/McLaren_McLaren_F1_orange_color_trees_fall_supercars_car_sports_car-12832.jpg!d);
+    z-index: -2;
+}
+.img5{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://th.bing.com/th/id/R.cd3079703c65b83c3c71e9c46dad2798?rik=jkN4FqZEv8dGFA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-R9DvLQgQeD8%2fU_DS3bn1CuI%2fAAAAAAAAAeE%2fEbUS8_gMLw4%2fs1600%2fFerrari458.jpg&ehk=kyKpvudD75GNOXQsK9L0Snac00MCiXe1DeGgg%2bcGn2w%3d&risl=&pid=ImgRaw&r=0);
+    z-index: -2;
+}
+.img6{
+    background-image:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)), url(https://th.bing.com/th/id/R.286ef35494b90f8222c8a78d381d4792?rik=cfOumU%2fvFL80Gw&pid=ImgRaw&r=0);
+    z-index: -2;
+}
+
+
+
+
 
 
 
 
 
 .container-box{
+    position: relative;
+    top: 100px;
     display: grid;
-    width: 100%;
+    width: 87%;
     height: 300px;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-left: 10px;
     color: white;
     font-size: 1.3em;
     font-weight: 900;
-    border: 3px solid whitesmoke;
     grid-gap: 250px;
     grid-template-columns: 100px 100px 100px 100px;
     justify-content: center;
+    z-index: 1;
 }
+
 .style-box{
-    background-color: rgba(170, 167, 167, 0.459);
+
+    background: linear-gradient(rgba(255, 214, 214, 0.2), rgba(0, 0, 0, 0.6));  
+    background-color: rgba(170, 167, 167, 0.89);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,10 +126,11 @@ h1 {
     height: 250px;
     box-shadow: 3px 3px 3px rgb(47, 83, 119);
     border-radius: 50%;
-    transition: 1.2s;
+    transition: 1.1s;
+    
 }
 .style-box:hover{
-    background-color: rgb(66, 66, 66);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,16 +140,16 @@ h1 {
     border-radius: 50%;
     transform: scale(0.9);
     transition: 1.2s;
+} 
+
+.style-box-1{
+    background-color: rgba(133, 117, 117, 0.2);
 }
 
-/* .style-box-1{
-    background-color: rgb(133, 117, 117);
-} */
-
-/* .fa-italic{
+.fa-italic{
     font-size: 20px;
     margin-right: 15px;
-} */
+}
 .sentence{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
