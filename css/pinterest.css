@@ -332,6 +332,9 @@ div>img{
 .bar-icon{
     display: none;
 }
+
+
+/* Pantalla Desktop */
 @media only screen and (max-width: 1424px){
     .main-boxes{
         grid-area: none;
@@ -443,6 +446,8 @@ div>img{
     }
 
 }
+
+/* Pantalla Movil */
 @media only screen and (max-width: 750px){
     .barra-cel{
         display: flex;
