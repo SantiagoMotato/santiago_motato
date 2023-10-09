@@ -25,7 +25,7 @@ eliminarBtn.addEventListener("click", function() {
         document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
     }
 
-    document.getElementById("cantProductos").innerHTML = cantProductosReset.toString() + " producto";
+    document.getElementById("cantProductos").innerHTML = cantProductosReset.toString();
     document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
     document.getElementById("numView").innerHTML = auxInt.toString();
 

@@ -154,7 +154,7 @@ span{
     .aysi{
         display: flex;
         justify-content: center;
-        width: 400px;
+        width: 100%;
         background-color: blueviolet;
     }
 }
@@ -162,7 +162,7 @@ span{
 
 .purchase-box{
     display: flex;
-    width: 600px;
+    width: 100%;
     height: 500px;
     background-color: burlywood;
     border-radius: 15px;
