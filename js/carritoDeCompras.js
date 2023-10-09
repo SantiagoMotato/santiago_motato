@@ -3,21 +3,33 @@ let numRestar = document.getElementById("numRestar");
 let numView = document.getElementById("numView");
 let cantProdutos = document.getElementById("cantProductos")
 let valorUnitario = 2550000;
+let eliminarCarrito = document.getElementById("eliminarBtn");
+let guardarParaMasTarde = document.getElementById("guardarParaMasTardeBtn");
+
 
 let valorUnitarioProductoStr = new Intl.NumberFormat('de-DE').format(valorUnitario);
 
 document.getElementById("valorUnitarioProducto").innerHTML = valorUnitarioProductoStr;
 
 
+eliminarBtn.addEventListener("click", function() {
+    let valorFinal = 0;
+    let auxInt = 0;
+    let cantProductosReset = 0;
 
-/* numRestar.addEventListener("click", function() {
-    let aux = numView.innerHTML.toString();
-    let auxInt = parseInt(aux);
-}); */
+    if(auxInt == 1){
+        let valorFinal = 0;
+    document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
+    }else if(auxInt > 1){
+        let valorFinal = 0;
+        document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
+    }
 
-//let price = 0;
+    document.getElementById("cantProductos").innerHTML = cantProductosReset.toString() + " producto";
+    document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
+    document.getElementById("numView").innerHTML = auxInt.toString();
 
-
+});
 
 
 numSumar.addEventListener("click", function() {
@@ -36,8 +48,6 @@ numSumar.addEventListener("click", function() {
             let valorFinal = valorUnitario * auxInt;
             document.getElementById("subTotal").innerHTML = valorFinal.toString(); 
         }
-
-
 
         document.getElementById("numView").innerHTML = auxInt.toString();
        /*  document.getElementById("cantProductos").innerHTML = auxInt.toString();*/
@@ -91,12 +101,14 @@ numRestar.addEventListener("click", function() {
 
 
     }else{
-        alert("Debes elegir uno o más productos!");
+        alert("Atención! Debes realizar alguna compra!");
     }
 });
 
+guardarParaMasTardeBtn.addEventListener("click", function(){
+    alert("Tu producto ha sido guardado en tu lista de deseos!!!");
+})
 
-   /*  let auxInt = parseInt(aux) + 1;
-    console.log(auxInt);
-    document.getElementById("numView").innerHTML = auxInt.toString(); */
+
+
 
