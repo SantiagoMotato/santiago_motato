@@ -1,15 +1,21 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     color: white;
     font-family: monospace;
 }
+
+section{
+    height: 100vh;
+}
+
 .proof{
     position: relative;
     color: black;
 }
 .side-menu{
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     width: 280px;
     padding: 10px;
     height: 100%;
@@ -37,11 +43,6 @@
     width: 100%;
     border-radius: 10px;
     background-color: rgba(115, 255, 236, 0.274);
-   /*  background: linear-gradient(
-       rgba(255, 255, 255, 0.5), 
-       rgba(255, 255, 255, 0.5), 
-    ); */
-    /* background: linear-gradient(8deg, red, white); */
     margin-bottom: 20px;
 }
 .icons-container{
@@ -80,14 +81,155 @@ li{
     padding: 10px 15px 10px 20px;
 }
 .hireMe-btn{
-    display: flex;
-    position: relative;
-    left: 80px;
+   
     padding: 10px 15px 10px 15px;
     border: none;
     border-radius: 5px;
     background-color: #48ae7d;
 }
+.hireMe-btn:hover{
+   
+    padding: 10px 15px 10px 15px;
+    border: 3px solid #48ae7d;;
+    border-radius: 5px;
+    background-color: rgba(115, 255, 236, 0.274);
+}
 .paperPlane-icon{
     margin-right: 5px;
+}
+
+ */
+ *{
+    padding: 0;
+    margin: 0;
+ }
+/* body{
+    overflow-x: hidden;
+} */
+ .container{
+    display: flex;
+    height: 100vh;
+ }
+ .info{
+    width: 280px;
+    background-color: #1c2433;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.programmer-name{
+    padding-bottom: 20px;
+}
+.programmer-description{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(115, 255, 236, 0.274);
+    margin-top: 15px;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px rgb(124, 161, 155) solid;
+}
+.icono-contendedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48ae7d;
+    width: 38px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    font-size: 15px;
+}
+.iconos-informacion{
+    font-size: 23px;
+}
+.icon-options{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px 15px 10px 20px;
+}
+.hireMe-btn{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #48ae7d;
+}
+.hireMe-btn:hover{
+    padding: 10px 15px 10px 15px;
+    border: 3px solid #48ae7d;;
+    border-radius: 5px;
+    background-color: rgba(115, 255, 236, 0.274);
+}
+
+
+.personal-info{
+    margin-bottom: 30px;
+}
+.personal-info .photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+}
+
+
+
+
+.front-page-container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color: #fff159;
+    grid-template: "descripcion-parrafo programmer-picture" /
+                    500px               530px;
+}
+.descripcion-parrafo{
+    background-color: blue;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.viewPortfolio-btn{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #48ae7d;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight:900;
+}
+.viewResume-btn{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c2433;
+    margin-top: 20px;
+    font-weight:900;
+}
+.programmer-picture{
+    background-color: red;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+img{
+    width: 100%;
+}
+
+.whatIDo{
+    position: relative;
+    top: -100px;
+    margin-left: 50px;
 }
