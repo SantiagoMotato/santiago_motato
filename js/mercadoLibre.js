@@ -1,13 +1,14 @@
 
 let inputBusqueda = document.getElementById("inputBusqueda");
-
 class Automovil{
-    constructor(marca, modelo){
+    constructor(marca, modelo,precio,imagen){
         this.marca = marca;
         this.modelo = modelo;
+        this.imagen = imagen;
+        this.precio = precio
     }
 };
-let auto1 = new Automovil("Pagani","Huayra");
+let auto1 = new Automovil("Pagani","Huayra",150000000,"img/pagani_Negro.jfif");
 
 //alert(auto1.marca + " " +auto1.modelo);
 
@@ -27,7 +28,7 @@ window.addEventListener("load", function(event){
     boxImg.setAttribute("class","box-img");
     let imgAuto = document.createElement("img");
     boxImg.appendChild(imgAuto);
-    imgAuto.setAttribute("src","img/pagani_Negro.jfif");
+    imgAuto.setAttribute("src",auto1.imagen);
     imgAuto.setAttribute("class","img-auto");
 
     /* Caja para la informacion */
@@ -39,4 +40,14 @@ window.addEventListener("load", function(event){
     boxInfo.appendChild(marca);
     let txtNodeMarca = document.createTextNode(auto1.marca + " " + auto1.modelo);
     marca.appendChild(txtNodeMarca);
+    marca.setAttribute("class","marca");
+    /* precio */
+    let precio = this.document.createElement("label");
+    boxInfo.appendChild(precio);
+    /* let textNodePrecio =this.document.createTextNode(auto1.precio); */
+    let precioStr = Intl.NumberFormat("de-DE").format(auto1.precio);
+    let textNodePrecio = this.document.createTextNode("$" + precioStr);
+    precio.appendChild(textNodePrecio);
+    precio.setAttribute("class","precio");
+
 });

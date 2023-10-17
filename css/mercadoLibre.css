@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 header{
@@ -84,4 +85,11 @@ img{
 .img-auto{
     padding: 20px;
     width: 100%;
+}
+
+.marca{
+    display: block;
+}
+.precio{
+    display: block;
 }
