@@ -233,3 +233,6 @@ img{
     top: -100px;
     margin-left: 50px;
 }
+h1{
+    border-left: 6px solid #48ae7d;
+}
