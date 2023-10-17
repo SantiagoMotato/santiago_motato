@@ -190,12 +190,11 @@ li{
     display: grid;
     height: 100%;
     width: 100%;
-    background-color: #fff159;
     grid-template: "descripcion-parrafo programmer-picture" /
                     500px               530px;
 }
 .descripcion-parrafo{
-    background-color: blue;
+    /* background-color: blue; */
     height: 200px;
     margin-left: 50px;
     margin-top: 50px;
@@ -218,21 +217,24 @@ li{
     font-weight:900;
 }
 .programmer-picture{
-    background-color: red;
+    /* background-color: red; */
     height: 200px;
     margin-left: 100px;
     margin-top: 50px;
 
 }
 img{
-    width: 100%;
+    width: 90%;
+    height: 120%;
 }
 
 .whatIDo{
     position: relative;
     top: -100px;
     margin-left: 50px;
+    /* background-color: purple; */
 }
-h1{
+.what-i-do{
     border-left: 6px solid #48ae7d;
+    padding-left: 10px;
 }
