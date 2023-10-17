@@ -70,20 +70,20 @@ img{
 }
 .box-producto{
     display: grid;
-    grid-template: "box-img  box-info" /
-                    3fr           4fr;
-    height: 300px;
+    grid-template: "box-img  box-info" 130px "linea-div linea-div" /
+                    3fr                       4fr;
+    height: 200px;
 }
 .box-img{
     grid-area: box-img;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 }
 .box-info{
     grid-area: box-info;
-    background-color: goldenrod;
+   /*  background-color: goldenrod; */
 }
 .img-auto{
-    padding: 20px;
+    padding: 3px;
     width: 100%;
 }
 
@@ -92,4 +92,27 @@ img{
 }
 .precio{
     display: block;
+}
+
+.box-corazon{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    background-color: rgb(255, 225, 225, .85);
+    position: relative;
+    top: -120px;
+    right: -120px;
+}
+.icono-corazon{
+    color: rgb(0, 38, 255);
+    font-size: 1.2em;
+}
+.linea-div{
+    grid-area: linea-div;
+    height:1px;
+    width: 100%;
+    background-color: black;
 }
