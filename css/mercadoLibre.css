@@ -76,6 +76,7 @@ img{
 }
 .box-img{
     grid-area: box-img;
+    position: relative;
     /* background-color: darkcyan; */
 }
 .box-info{
@@ -102,9 +103,12 @@ img{
     align-items: center;
     border-radius: 22px;
     background-color: rgb(255, 225, 225, .85);
-    position: relative;
+    /* position: relative;
     top: -120px;
-    right: -120px;
+    right: -120px; */
+    position: absolute;
+    top: 0px;
+    right: 20px;
 }
 .icono-corazon{
     color: rgb(0, 38, 255);
