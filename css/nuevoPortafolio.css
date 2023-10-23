@@ -27,7 +27,8 @@
     margin-top: 15px;
 }
 p{
-    font-size: 1.1em;
+    line-height: 1.2em;
+    font-size: 1.2em;
 }
 .icons-container{
     display: flex;
@@ -44,8 +45,23 @@ p{
     width: 38px;
     height: 35px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 12px;
+    margin-left: 6px;
+    transition: 1s;
 }
+.icono-contendedor:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #397255;
+    width: 38px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-left: 6px;
+    box-shadow: 2px 2px 15px 8px rgba(0, 0, 0, 0.397);
+}
+
 .vertical-list{
     display: flex;
     flex-direction: column;
@@ -62,10 +78,13 @@ li{
     font-size: 23px;
 }
 .icon-options{
+    position: relative;
+    top: -10px;
     color: aliceblue;
     font-size: 18px;
-    padding: 10px 15px 10px 20px;
+    padding: 8px 15px 8px 20px;
 }
+
 .codeWorks-btn{
     padding: 8px 15px 8px 15px;
     margin-left: 68px;
@@ -88,8 +107,6 @@ a{
     margin-right: 3px;
 }
 
-
-
 .personal-info{
     margin-bottom: 10px;
 }
@@ -100,8 +117,6 @@ a{
     display: block;
     margin: auto;
 }
-
-
 
 
 .front-page-container{
@@ -117,7 +132,11 @@ a{
     /* background-color: blue; */
     height: 400px;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 5px;
 }
 .viewPortfolio-btn{
     padding: 10px 15px 10px 15px;
@@ -158,10 +177,12 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .programmer-picture{
-    /* background-color: red; */
-    height: 200px;
+    position: relative;
+    left: 30px;
+    top: -10px;
+    height: 250px;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .programmer-pic{
     width: 90%;
@@ -172,13 +193,14 @@ a{
 
 .whatIDo{
     position: relative;
-    top: -130px;
+    top: -150px;
     margin-left: 50px;
     /* background-color: purple; */
 }
 .what-i-do{
     border-left: 6px solid #48ae7d;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 .font-style{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -186,8 +208,11 @@ a{
 
 
 /* Responsive phone screen */
-@media only screen and (max-width: 400px){ 
+@media only screen and (max-width: 600px){ 
 
+    body{
+        width: 100%;
+    }
     .container{
         display: flex;
         flex-direction: column;
