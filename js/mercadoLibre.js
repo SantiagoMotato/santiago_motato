@@ -24,7 +24,6 @@ cargarVehiculo(auto3);
 cargarVehiculo(nissanSkyline);
 
 window.addEventListener("keydown", function(event){
-    mainContent.innerHTML="";
     let busqueda = this.document.getElementById("inputBusqueda").value;
     if(event.key == "Enter"){
         mainContent.innerHTML = "";
