@@ -26,14 +26,12 @@ cargarVehiculo(nissanSkyline);
 window.addEventListener("keydown", function(event){
     let busqueda = this.document.getElementById("inputBusqueda").value;
     if(event.key == "Enter"){
-        mainContent.innerHTML = "";
+        boxProductos.innerHTML = "";
         let inputUser = busqueda.toLowerCase();
         if(inputUser == "pagani"){
-            cargarVehiculo(auto2);
-            cargarVehiculo(auto3);
-        }else if(inputUser == "koenisgssegg"){
             cargarVehiculo(perro);
-            cargarVehiculo(nissanSkyline);
+        }else if(inputUser == "koenisgssegg"){
+            cargarVehiculo(auto2);
         }
     }
 });
@@ -42,11 +40,11 @@ window.addEventListener("keydown", function(event){
 function cargarVehiculo(auto){
     window.addEventListener("keydown", function(event){
     
-        let mainContent = document.getElementById("mainContent");
+        let boxProductos = document.getElementById("boxProductos");
     
         /* Caja para el producto */
         let boxProducto = document.createElement("div");
-        mainContent.appendChild(boxProducto);
+        boxProductos.appendChild(boxProducto);
         boxProducto.setAttribute("class","box-producto");
     
         /* Caja para la imagen */
@@ -116,3 +114,13 @@ function cargarVehiculo(auto){
     
     });
 }
+
+/* FILTROS */
+cargarFiltro();
+
+function cargarFiltro(){
+    let boxFiltro = document.createElement("div");
+    mainContent.appendChild(boxFiltro);
+    boxFiltro.setAttribute("class","box-filtro");
+};
+

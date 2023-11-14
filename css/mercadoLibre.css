@@ -49,13 +49,11 @@ img{
 }
 .hamburguer-menu{
     grid-area: hamburguer-menu;
-   /*  background-color: blue; */
     display: flex;
     align-items: center;
 }
 .carrito{
     grid-area: carrito;
- /*    background-color: yellow; */
  display: flex;
     align-items: center;
 }
@@ -65,23 +63,19 @@ img{
     justify-content: center;
     font-size: 1.3em;
 }
-.main-content{
-    display: grid;
-}
+
 .box-producto{
     display: grid;
-    grid-template: "box-img  box-info" 130px "linea-div linea-div" /
+    grid-template: "box-img  box-info" auto "linea-div linea-div" /
                     3fr                       4fr;
     height: 200px;
 }
 .box-img{
     grid-area: box-img;
     position: relative;
-    /* background-color: darkcyan; */
 }
 .box-info{
     grid-area: box-info;
-   /*  background-color: goldenrod; */
 }
 .img-auto{
     padding: 3px;
@@ -103,9 +97,6 @@ img{
     align-items: center;
     border-radius: 22px;
     background-color: rgb(255, 225, 225, .85);
-    /* position: relative;
-    top: -120px;
-    right: -120px; */
     position: absolute;
     top: 0px;
     right: 20px;
@@ -119,4 +110,65 @@ img{
     height:1px;
     width: 100%;
     background-color: black;
+}
+
+
+@media only screen and (min-width: 550px){
+    .box-producto{
+        font-size: 1.6em;
+    }
+    .marca{
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .main-content{
+        background-color: rgb(230, 230, 230, .9);
+
+        display: grid;
+        grid-template: "box-filtro box-productos";
+    }
+    .box-productos{
+        grid-area: box-productos;
+    }
+    .box-filtro{
+        grid-area: box-filtro;
+        width: 200px;
+        height: 100vh;
+    }
+    .box-toggle{
+        margin: 50px 0 0 50px;
+        width: 120px;
+        height: 60px;
+        border-radius: 27px;
+        background-color: rgb(120, 120, 120);
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    
+    .box-toggle-on{
+        background-color: rgb(120, 120, 120);
+    }
+    .box-toggle-off:hover{
+        background-color: rgb(51, 131, 250);
+    }
+    .button-toggle-off{
+        width: 54px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: rgb(48, 48, 48, .8);
+        padding-left: 3px;
+    }
+    .button-toggle-on{
+        width: 54px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #fff;
+        padding-left: 3px;
+        position: absolute;
+        right: 3px;
+    }
+    
 }
