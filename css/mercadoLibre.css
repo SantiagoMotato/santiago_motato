@@ -136,32 +136,45 @@ img{
         width: 200px;
         height: 100vh;
     }
+
+
+    /* TOGGLE BUTTON */
     .box-toggle{
         margin: 50px 0 0 50px;
         width: 120px;
         height: 60px;
         border-radius: 27px;
-        background-color: rgb(120, 120, 120);
         display: flex;
         align-items: center;
         position: relative;
-    }
+        cursor: pointer;
+    } 
 
-    
-    .box-toggle-on{
-        background-color: rgb(120, 120, 120);
+    .box-toggle-off{
+        background-color: rgb(200, 200, 200);
     }
-    .box-toggle-off:hover{
+    .box-toggle-on{
         background-color: rgb(51, 131, 250);
     }
-    .button-toggle-off{
+
+
+    .button-toggle{
         width: 54px;
         height: 54px;
         border-radius: 27px;
-        background-color: rgb(48, 48, 48, .8);
+        background-color: #fff;
         padding-left: 3px;
+        position: relative;
+        transition: left 300ms;
     }
+    .button-toggle-off{
+        left: 3px;
+    }
+
     .button-toggle-on{
+        left: 63px;
+    }
+    /* .button-toggle-on{
         width: 54px;
         height: 54px;
         border-radius: 27px;
@@ -169,6 +182,6 @@ img{
         padding-left: 3px;
         position: absolute;
         right: 3px;
-    }
+    } */
     
-}
+}   
