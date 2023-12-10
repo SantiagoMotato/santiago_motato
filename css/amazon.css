@@ -1,0 +1,23 @@
+label{
+    font-size: 1.2em;
+}
+input[type="text"] {
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 2px solid rgb(64, 64, 64, .8);
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+input[type="button"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    border: none;
+    color: wheat;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* Progress bar styles*/

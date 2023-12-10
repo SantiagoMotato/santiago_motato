@@ -5,6 +5,16 @@
     font-family: monospace;
 }
 
+.star{
+    font-size: 52px;
+    color: #bbb;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.star:hover, .star.checked{
+    color: gold;
+}
+
 header{
     height: 90px;
     display: grid;
