@@ -188,7 +188,10 @@ h2{
 .programmer-pic{
     width: 70%;
     height: 160%;
-    box-shadow: 40px 10px 0px 60px rgba(0, 0, 0, 0.808), -40px -10px 0px 60px rgba(0, 0, 0, 0.808);
+    box-shadow: 40px 10px 0px 60px rgba(0, 56, 94, 0.808), -40px -10px 0px 60px rgba(0, 49, 82, 0.808);
+
+
+
     /* border-radius: 10px; */
 }
 
